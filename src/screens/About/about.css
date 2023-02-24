@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.section {
+	width: 100%;
+	float: left;
+}
+
+.row {
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+}
+
+.details {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.details p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.section-img {
+	width: 100%;
+	height: 480px;
+	background: url('../../assets/1.jpg') no-repeat;
+	background-size: cover;
+}
+
+.section-bg-box {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding: 150px 0;
+}
+
+.section-bg-box h1 {
+	background: green;
+	color: white;
+	font-size: 50px;
+	width: 50%;
+	margin: auto;
+}
+
+.section-bg-box h2 {
+	background: blue;
+	color: white;
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+}
+
+.welcome-text {
+	font-size: 35px;
+	text-transform: uppercase;
+	background: red;
+	width: 60%;
+	padding: 0 5px;
+	color: white;
+}
+
+p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+ul {
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 20px;
+	list-style: none;
+}
+
+section ul li {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+section h2 {
+	font-size: 30px;
+}
+
+.about-box {
+	width: 100%;
+}
+
+.about-box p {
+	font-size: 18px;
+}
+
+.about-box div:nth-child(1) {
+	width: 60%;
+	float: left;
+	padding: 10px;
+}
+
+.about-box div:nth-child(2) {
+	width: 40%;
+	float: left;
+	padding: 10px;
+}
+
+.w-80 {
+	width: 100%;
+}
+
+.bottomImage {
+	width: '40%';
+	height: 200px;
+}
+
+.bottomText {
+	width:'60%'
+}
+
+@media screen and (max-width: 730px) {
+	p {
+		color: crimson;
+		font-size: 16px;
+	}
+
+	.welcome-text {
+		font-size: 20px;
+		text-transform: uppercase;
+		width: 60%;
+		padding: 0 5px;
+		color: white;
+		background-color: blue;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-box {
+		width: '100%';
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-box div:nth-child(1) {
+		width: 100%;
+		float: left;
+		padding: 10px;
+	}
+	
+	.about-box div:nth-child(2) {
+		width: 100%;
+		float: left;
+		padding: 10px;
+	}
+	
+
+	.bottomImage {
+		width: '100%';
+		height: 200px;
+	}
+	
+	.bottomText {
+		width:'100%'
+	}
+}
+
+
+@media screen and (min-width: 960px) {
+	p {
+		color: black;
+		font-size: 16px;
+	}
+}

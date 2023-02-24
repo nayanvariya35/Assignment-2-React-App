@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{
+    font-family: "Trirong", serif;
+ }
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.w-80 {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 10px 10px;
+}
+
+header {
+	width: 100%;
+	height: 55px;
+	background: blue;
+	float: left;
+}
+
+.navItem {
+	color: white;
+	font-size: large;
+}
+
+
+/* Start Section Coding */
+
+.contact {
+	justify-content: center;
+	text-align: center;
+}
+
+.doctors {
+	padding: 0.9em;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	margin-right: 10px;
+}
+
+.section {
+	width: 100%;
+	float: left;
+}
+
+ p {
+	font-size: 22px;
+	text-align: justify;
+}
+
+ h2 {
+	font-size: 30px;
+}
+
+ .form-box {
+	padding: 20px;
+}
+
+ .form-box form {
+	margin-top: 20px;
+}
+
+ .form-box input {
+	width: 50%;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 10px;
+	font-family: Gotu;
+	font-size: 16px;
+}
+
+textarea {
+	height: 100px;
+}
+
+/* End Section Coding */
+
+.w-80 {
+	width: 100%;
+}
+
+.label {
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 730px) {
+
+	.doctors {
+		padding: 0.9em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.docContainer2 {
+		margin-top: 30px;
+	}
+
+}
